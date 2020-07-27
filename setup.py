@@ -49,10 +49,7 @@ setup(name='mtcnn',
       author_email='ipazc@unileon.es',
       license='MIT',
       packages=setuptools.find_packages(exclude=["tests.*", "tests"]),
-      install_requires=[
-          "keras>=2.0.0",
-          "opencv-python>=4.1.0"
-      ],
+      install_requires=[],
       classifiers=[
           'Environment :: Console',
           'Intended Audience :: Developers',
